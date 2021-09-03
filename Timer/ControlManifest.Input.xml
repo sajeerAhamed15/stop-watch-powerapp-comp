@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="Sample" constructor="Timer" version="0.0.1" display-name-key="Timer" description-key="Timer description" control-type="standard" >
+      <property 
+        name="currentTime" 
+        display-name-key="Current_Time" 
+        description-key="Property_Desc_Key" 
+        of-type="Whole.None"
+        usage="bound" 
+        required="true" />
+    <resources>
+      <code path="index.ts" order="1"/>
+      <css path="css/Timer.css" order="1" />
+    </resources>
+  </control>
+</manifest>
